@@ -5,10 +5,10 @@ export default function Step3({
   category, 
   onComplete 
 }: { 
-  transportMode: string |null
+  transportMode: string | null
   category: string | null
   onComplete: (routeData: any) => void 
-}) {
+}): import("react/jsx-runtime").JSX.Element {
   const [origin, setOrigin] = useState('')
   const [destination, setDestination] = useState('')
   const [loading, setLoading] = useState(false)

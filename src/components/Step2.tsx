@@ -6,7 +6,7 @@ const categories = [
   { id: 'history', name: '歴史遺産', icon: '⛩️' },
 ]
 
-export default function Step2({ onComplete }: { onComplete: (category: string) => void }) {
+export default function Step2({ onComplete }: { onComplete: (category: string) => void }): import("react/jsx-runtime").JSX.Element {
   return (
     <div style={{ background: 'white', borderRadius: '8px', boxShadow: '0 10px 25px rgba(0,0,0,0.1)', padding: '32px' }}>
       <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', marginBottom: '24px' }}>Step 2: 観光地カテゴリを選択</h2>

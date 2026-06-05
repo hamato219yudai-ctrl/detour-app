@@ -8,7 +8,7 @@ export default function Step5({
   route: any
   onSelectPlace: (place: any) => void
   onBack: () => void 
-}) {
+}): import("react/jsx-runtime").JSX.Element {
   const [places, setPlaces] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
 

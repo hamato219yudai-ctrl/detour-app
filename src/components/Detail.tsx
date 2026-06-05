@@ -4,7 +4,7 @@ export default function Detail({
 }: { 
   place: any
   onBack: () => void 
-}) {
+}): import("react/jsx-runtime").JSX.Element {
   // モック データ（後で API に置き換え）
   const nearbyPlaces = [
     { id: 1, name: '近くの観光地1', rating: 4.3, icon: '🏛️' },

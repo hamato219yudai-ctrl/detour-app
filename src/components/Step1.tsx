@@ -1,4 +1,4 @@
-export default function Step1({ onComplete }: { onComplete: (mode: string) => void }) {
+export default function Step1({ onComplete }: { onComplete: (mode: string) => void }): import("react/jsx-runtime").JSX.Element {
   return (
     <div style={{ background: 'white', borderRadius: '8px', boxShadow: '0 10px 25px rgba(0,0,0,0.1)', padding: '32px' }}>
       <h2 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', marginBottom: '24px' }}>Step 1: 交通手段を選択</h2>
